@@ -4,7 +4,7 @@ param(
     [ref]$LocalBuildSucceeded
 )
 
-$MSBuildPath = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\amd64\MSBuild.exe"
+$MSBuildPath = "D:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe"
 # Setup Build Tools, change this for your local environment
 if ((!$MSBuild) -And (Test-Path -Path $MSBuildPath))
 {
